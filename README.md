@@ -12,8 +12,8 @@ Steps followed are
 
 Example, say we have 2 interfaces
 
-    1. USPlug
-    2. UKPlug
+   1. USPlug
+   2. UKPlug
     
     interface USPlug {
         void plugToUSPowerPoint();
