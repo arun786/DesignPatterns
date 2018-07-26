@@ -26,17 +26,17 @@ Example, say we have 2 interfaces
 
 We have 2 laptop which is of US and UK respectively.
    
-   class LapTopInUS implements USPlug {
-       public void plugToUSPowerPoint() {
-           System.out.println("Plugging to US Power point");
+       class LapTopInUS implements USPlug {
+           public void plugToUSPowerPoint() {
+               System.out.println("Plugging to US Power point");
+           }
        }
-   }
-   
-   class LaptopInUK implements UKPlug {
-       public void plugToUKPowerPoint() {
-           System.out.println("Plugging to UK Power point");
+       
+       class LaptopInUK implements UKPlug {
+           public void plugToUKPowerPoint() {
+               System.out.println("Plugging to UK Power point");
+           }
        }
-   }
 
 Now when the laptop are used in their respective countries, then there are no issues.
 
